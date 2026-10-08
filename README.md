@@ -2,7 +2,14 @@
   <sub>SCORSTELLA · A SMALL CONSTELLATION</sub>
 </p>
 
-<h1 align="center">Stella</h1>
+<h1 align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/stella-name-dark.svg#still">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/stella-name-light.svg#still">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stella-name-dark.svg">
+    <img src="assets/stella-name-light.svg" width="330" alt="Stella">
+  </picture>
+</h1>
 
 <p align="center">
   把好奇心写成代码，把微光留在字里行间。<br>

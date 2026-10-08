@@ -1,0 +1,27 @@
+<svg id="still" xmlns="http://www.w3.org/2000/svg" width="440" height="112" viewBox="0 0 440 112" role="img" aria-labelledby="title desc">
+  <title id="title">Stella</title>
+  <desc id="desc">A violet, rose, and gold wordmark with a slow color drift and two softly breathing stars. Motion stops when reduced motion is requested.</desc>
+  <defs>
+    <linearGradient id="starlight" x1="0" y1="0" x2="1" y2=".2">
+      <stop class="violet" stop-color="#c9b1ff"/>
+      <stop class="rose" offset=".55" stop-color="#f1abc9"/>
+      <stop class="gold" offset="1" stop-color="#f2cd92"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .violet{animation:violet 12s ease-in-out infinite}
+    .rose{animation:rose 12s ease-in-out infinite}
+    .gold{animation:gold 12s ease-in-out infinite}
+    .star{animation:breathe 6s ease-in-out infinite}
+    .late{animation-delay:-3s}
+    @keyframes violet{0%,100%{stop-color:#c9b1ff}50%{stop-color:#e8b6e5}}
+    @keyframes rose{0%,100%{stop-color:#f1abc9}50%{stop-color:#d1b8ff}}
+    @keyframes gold{0%,100%{stop-color:#f2cd92}50%{stop-color:#f0b2ba}}
+    @keyframes breathe{0%,100%{opacity:.75}50%{opacity:.28}}
+    svg:target *{animation:none!important}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <text x="220" y="82" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="76" font-weight="600" letter-spacing="-.8" fill="url(#starlight)">Stella</text>
+  <path class="star" d="M82 42Q82 51 91 51Q82 51 82 60Q82 51 73 51Q82 51 82 42Z" fill="#d7b5f4" opacity=".75"/>
+  <path class="star late" d="M357 67Q357 73 363 73Q357 73 357 79Q357 73 351 73Q357 73 357 67Z" fill="#d7b5f4" opacity=".75"/>
+</svg>
