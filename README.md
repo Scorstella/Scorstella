@@ -1,16 +1,35 @@
-## Hi there 👋
+<p align="center">
+  <sub>SCORSTELLA · A SMALL CONSTELLATION</sub>
+</p>
 
-<!--
-**Scorstella/Scorstella** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">Stella</h1>
 
-Here are some ideas to get you started:
+<p align="center">
+  把好奇心写成代码，把微光留在字里行间。<br>
+  <sub>Research, code, and a little starlight.</sub>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/338770467?v=4" width="180" alt="Stella 的肖像">
+</p>
+
+<br>
+
+### 在这里 · Around here
+
+一处留给问题、实验与灵感的小小空间。
+
+- **研究** · 从一个好问题出发，沿着证据慢慢走。
+- **代码** · 让想法落地，也让细节经得起推敲。
+- **文字** · 理清复杂的事，留下值得再读的句子。
+
+### 一点偏爱 · Small things
+
+清楚的逻辑，克制的设计，还有尚未被问出的好问题。
+
+<br>
+
+<p align="center">
+  ✦<br>
+  <sub>Stay curious. Leave a little light.</sub>
+</p>
